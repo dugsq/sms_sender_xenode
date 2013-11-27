@@ -1,0 +1,12 @@
+---
+mode: test
+test_creds:
+  account_sid: ABCDEF123456
+  auth_token: abcdef123456
+  default_from: +12345678900
+  default_to: +12345678900
+prod_creds:
+  account_sid: ABCDEF123456
+  auth_token: abcdef123456
+  default_from: +12345678900
+  default_to: +12345678900
