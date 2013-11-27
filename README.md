@@ -1,10 +1,10 @@
 sms-sender-xenode
 =================
 
-**SMS Sender Xenode** reads its input message context and data, and sends the input message as SMS message through your Twilio account. It leverages the "twilio-ruby" Ruby Gem to perform the SMS send operations. The Xenode will read the sender and recipient information from the configuration properties, and the SMS message content from the input message data. 
+**SMS Sender Xenode** reads its input message context and data, and sends the input message as SMS message through your Twilio account. It leverages the "twilio-ruby" RubyGem to perform the SMS send operations. The Xenode will read the sender and recipient information from the configuration properties, and the SMS message content from the input message data. 
 
 ###Configuration file options:###
-* loop_delay: defines number of seconds the Xenode waits before running process(). Expects a float.
+* loop_delay: defines number of seconds the Xenode waits before running the Xenode process. Expects a float.
 * enabled: determines if the xenode process is allowed to run. Expects true/false.
 * debug: enables extra logging messages in the log file. Expects true/false.
 * mode: specifies test or production mode for your sms send operations. Expects test/prod.
