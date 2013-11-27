@@ -16,7 +16,7 @@
 #   mode:               Expected value: test/prod. Specifies test or production mode for your sms send operations.
 #   account_sid         Expected value: a string. Specifies your Twilio account SID.
 #   auth_token          Expected value: a string. Specifies your Twilio authorization token.
-#   default_from        Expected value: a string. Specifies the SMS sender phone number.
+#   default_from        Expected value: a string. Specifies your Twilio phone number.
 #   default_to          Expected value: a string. Specifies the SMS recipient phone number.
 #
 # Example Configuration File:
