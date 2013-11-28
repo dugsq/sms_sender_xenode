@@ -44,7 +44,7 @@
 require 'twilio-ruby'
 
 class SmsSenderXenode
-  include XenoCore::NodeBase
+  include XenoCore::XenodeBase
   
   def startup
     mctx = "#{self.class}.#{__method__} - [#{@xenode_id}]"
