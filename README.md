@@ -1,6 +1,8 @@
 SMS Sender Xenode
 =================
 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
 **SMS Sender Xenode** reads its input message context and data, and sends the input message as SMS message through your Twilio account. It leverages the "twilio-ruby" RubyGem to perform the SMS send operations. The Xenode will read the sender and recipient information from the configuration properties, and the SMS message content from the input message data. 
 
 ###Configuration file options:###
